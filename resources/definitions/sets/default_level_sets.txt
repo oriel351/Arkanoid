@@ -1,0 +1,6 @@
+e:Easy
+definitions/levels/easy_level_definitions.txt
+h:Hard
+definitions/levels/hard_level_definitions.txt
+j:standard levels
+definitions/levels/standard_level_definitions.txt

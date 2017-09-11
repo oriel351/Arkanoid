@@ -1,0 +1,102 @@
+# Level 1
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Direct Hit
+ball_velocities:4
+background:image(images/background/eifel.jpg)
+paddle_speed:500
+paddle_width:120
+block_definitions:definitions/blocks/direct_hit_bdef.txt
+blocks_start_x:387
+blocks_start_y:180
+row_height:80
+num_blocks:1
+START_BLOCKS
+-
+-
+-
+---a
+-
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Image Background and images for blocks
+START_LEVEL
+level_name:Wide Easy
+ball_velocities:50,50,50,30,50,100,50,150,50,50,50
+background:image(images/background/mario.jpg)
+paddle_speed:200
+paddle_width:600
+block_definitions:definitions/blocks/wide_easy_bdef.txt
+blocks_start_x:20
+blocks_start_y:180
+row_height:80
+num_blocks:15
+START_BLOCKS
+-
+-
+-aaaaabbbbbccccc-
+-
+-
+-
+-
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Image Background and images for blocks
+START_LEVEL
+level_name:Green3
+ball_velocities:50,50
+# second option background: color(RGB(142,0,0))
+background:image(images/background/view.jpg)
+paddle_speed:400
+paddle_width:120
+block_definitions:definitions/blocks/green3_bdef.txt
+blocks_start_x:150
+blocks_start_y:128
+row_height:80
+num_blocks:75
+START_BLOCKS
+-
+-aaaaaaaaaaaaaaa-
+-bbbbbbbbbbbbbbb-
+-ccccccccccccccc-
+-ddddddddddddddd-
+-eeeeeeeeeeeeeee-
+-
+-
+-
+-
+END_BLOCKS
+END_LEVEL
+
+# Level 4
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:OrielIsTheKing
+ball_velocities:50,50,50
+background:image(images/background/beach.jpg)
+paddle_speed:400
+paddle_width:120
+block_definitions:definitions/blocks/orielistheking_bdef.txt
+blocks_start_x:20
+blocks_start_y:128
+row_height:80
+num_blocks:92
+START_BLOCKS
+-
+-aaaaaaaaaaaaaaa-
+--bbbbbbbbbbbbbb-
+---ccccccccccccc-
+----dddddddddddd-
+-----eeeeeeeeeee-
+------ffffffffff-
+-------ggggggggg-
+--------hhhhhhhh-
+-
+END_BLOCKS
+END_LEVEL

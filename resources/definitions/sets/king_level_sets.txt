@@ -1,0 +1,7 @@
+e:Easy
+definitions/levels/easy_level_definitions.txt
+h:Hard
+definitions/levels/hard_level_definitions.txt
+k:king levels
+definitions/levels/king_level_definitions.txt
+

@@ -1,0 +1,12 @@
+# default values for blocks
+default height:31 width:31 hit_points:1
+
+# block definitions
+bdef symbol:a hit_points:2 fill-2:image(images/blocks/mario/5.jpg) fill-1:image(images/blocks/mario/6.jpg)
+bdef symbol:b fill-1:image(images/blocks/mario/1.jpg)
+bdef symbol:c fill-1:image(images/blocks/mario/3.jpg)
+bdef symbol:d hit_points:2 fill-2:image(images/blocks/mario/2.jpg) fill-1:image(images/blocks/mario/4.jpg)
+
+
+# spacers definitions
+sdef symbol:- width:50

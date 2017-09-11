@@ -1,0 +1,6 @@
+e:Easy
+definitions/levels/easy_level_definitions.txt
+h:Hard
+definitions/levels/hard_level_definitions.txt
+k:regular(boring) levels
+definitions/levels/regular_level_definitions.txt

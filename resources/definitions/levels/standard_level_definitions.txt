@@ -1,0 +1,72 @@
+# Level 1
+# Image Background and images for blocks
+START_LEVEL
+level_name:Football
+ball_velocities:5,8
+background:image(images/background/football.jpg)
+paddle_speed:500
+paddle_width:300
+block_definitions:definitions/blocks/football_bdef.txt
+blocks_start_x:100
+blocks_start_y:80
+row_height:65
+num_blocks:8
+START_BLOCKS
+-
+-
+-
+-aaaaaaaa-
+-
+END_BLOCKS
+END_LEVEL
+# Level 2
+# Image Background and images for blocks
+START_LEVEL
+level_name:Super Mario
+ball_velocities:358,35,35,35,350,350,350
+background:image(images/background/marioLevel.jpg)
+paddle_speed:650
+paddle_width:200
+block_definitions:definitions/blocks/mario_bdef.txt
+blocks_start_x:200
+blocks_start_y:80
+row_height:31
+num_blocks:40
+START_BLOCKS
+-
+-
+-aaaaaaaaaa-
+-bbbbbbbbbb-
+-cccccccccc-
+-dddddddddd-
+-
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Chaconne
+ball_velocities:45,55
+background:image(images/background/violin_bright.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/blocks/chaconne_bdef.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:34
+num_blocks:64
+START_BLOCKS
+-
+-abcdefgh-
+-ijklmnop-
+-qrstuvwx-
+-yzABCDEF-
+-GHIJKLMN-
+-OPQRSTUV-
+-WXYZ1234-
+-56789^&*-
+-
+END_BLOCKS
+END_LEVEL

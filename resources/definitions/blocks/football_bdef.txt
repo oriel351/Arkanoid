@@ -1,0 +1,8 @@
+# default values for blocks
+default height:65 width:65 hit_points:1
+
+# block definitions
+bdef symbol:a fill:image(images/blocks/football/ball.jpg)
+
+# spacers definitions
+sdef symbol:- width:50
